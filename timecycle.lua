@@ -1,7 +1,7 @@
 --- MenuV Menu
 ---@type Menu
-local menu = MenuV:CreateMenu(false, 'Timecycle Modifiers', 'topright', 255, 0, 0, 'size-125', 'example', 'menuv', 'timecycle_home')
-local menu2 = MenuV:CreateMenu(false, 'Timecycle Modifiers', 'topright', 255, 0, 0, 'size-125', 'example', 'menuv', 'timecycle_list')
+local menu = MenuV:CreateMenu(false, 'Timecycle Modifiers', 'topright', 245, 66, 105, 'size-125', 'default', 'menuv', 'timecycle_home')
+local menu2 = MenuV:CreateMenu(false, 'Timecycle Modifiers', 'topright', 245, 66, 105, 'size-125', 'default', 'menuv', 'timecycle_list')
 
 local menu_button = menu:AddButton({ icon = '🔆', label = 'View Timecycles', value = menu2, description = 'Opens a list of available timecycles to test.' })
 local default_button = menu:AddButton({ icon = '↩️', label = 'Reset to Default', value = default_button, description = 'Resets timecycle to default.' })
