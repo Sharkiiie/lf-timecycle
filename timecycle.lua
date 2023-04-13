@@ -29,4 +29,4 @@ end)
 
 RegisterCommand("timecycle", function()
     MenuV:OpenMenu(menu)
-end, "admin")
+end, true)
